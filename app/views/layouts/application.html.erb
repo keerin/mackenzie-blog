@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Intro to Rails - Mackenzie Child</title>
+    <title>Intro to Rails - Very Basic Blog</title>
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
 
@@ -10,10 +10,14 @@
   </head>
 
   <body>
-    <h1>Intro to Rails - Mackenzie Child</h1>
+    <h1>Intro to Rails - Very Basic Blog</h1>
     <%= link_to "Home", root_path %> | 
     <%= link_to "New Post", new_post_path %>
 
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
     <%= yield %>
+
   </body>
+
 </html>

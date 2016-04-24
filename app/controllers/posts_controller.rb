@@ -18,11 +18,9 @@ before_action :find_post, only: [:show, :edit, :update, :destroy]
   end
   
   def show
-
   end
   
   def edit
-
   end
   
   def update

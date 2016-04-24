@@ -1,6 +1,6 @@
 <h2><%= @post.title %></h2>
 <div>
-  <%= @post.body %>
+  <%=raw @post.body %>
 </div>
 <br>
 <%= link_to "Edit post", edit_post_path(@post) %>
